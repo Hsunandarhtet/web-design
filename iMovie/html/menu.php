@@ -1,0 +1,82 @@
+
+<?php 
+	echo "<!DOCTYPE html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+	<title>File Production</title>
+	<link rel='stylesheet' type='text/css' href='../css/font-awesome.css'>
+    <link rel='stylesheet' type='text/css' href='../css/body.css'>
+    <link rel='stylesheet' type='text/css' href='../css/moviebox.css'>
+    <link rel='stylesheet' href='../css/form-register.css'>
+    <link rel='stylesheet' type='text/css' href='../fonts/font-awesome-4.2.0/css/font-awesome.min.css' />
+    <link rel='stylesheet' type='text/css' href='../plugin/bootstrap.min.css'> 
+    <link rel='stylesheet' href='../css/WOW-master/css/libs/animate.css'>
+	<script src='../css/WOW-master/dist/wow.js'></script>
+   		<script>
+    		new WOW().init();
+  	</script>
+
+	<script type='text/javascript' src='../js/jquery.js'></script>
+    <link rel='stylesheet' type='text/css' href='../css/style1.css'>
+    <link rel='stylesheet' type='text/css' href='../plugin/bootstrap.min.css'>
+    <script type='text/javascript' src='../plugin/bootstrap.min.js'></script>
+    <script type='text/javascript' src='../js/jquery-3.1.1.js'></script>
+    <script type='text/javascript' src='../js/plugin.js'></script>
+    <script type='text/javascript' src='../js/scripts.js'></script>
+    
+</head>
+<body>
+
+
+<div id='wrap'>
+	<header>
+		<div class='inner relative'>
+			<a class='logo' href='../index.html' style='text-decoration: none;color: #23dbdb;'><h1>iMovie</h1></a>
+			<a id='menu-toggle'  href='#'><i class='icon-reorder'></i></a>
+			<nav id='navigation'>
+				<ul id='main-menu'>
+					
+					<li class='current-menu-item'><a href='../index.html'>Home</a></li>
+					<li class='parent'>
+						<a href='#'>Movies</a>
+						<ul class='sub-menu'>
+							<li><a href='movieTop100.php'>Top 100</a></li>
+							<li><a href='movieAction.php'> Action</a></li>
+							<li><a href='movieadventure.php'> Adventure</a></li>
+							<li><a href='moviecomedy.php'> Comedy</a></li>
+							<li><a href='moviecrime.php'> Crime</a></li>
+							<li><a href='moviedrama.php'> Drama</a></li>
+							<li><a href='moviefantasy.php'> Fantasy</a></li>
+							<li><a href='moviehorror.php'> Horror</a></li>
+							<li><a href='movieromance.php'> Romance</a></li>
+							<li><a href='moviesci_fi.php'> Sci-fi</a></li>
+							<li><a href='moviekorea.php'> Korea</a></li>
+							<li><a href='moviemyanmar.php'> Myanmar</a></li>
+							<li><a href='moviethai.php'> Thai</a></li>
+							<li><a href='movieindia.php'> India</a></li>
+							<li><a href='moviechina.php'> China</a></li>
+							<li><a href='moviephilipine.php'> Philipine</a></li>
+						</ul>
+					</li>
+					<li class='parent'>
+						<a href='#'>Crew</a>
+						<ul class='sub-menu'>
+							<li><a href='actors.php'>Actors</a></li>
+							<li><a href='actresses.php'>Actresses</a></li>
+							<li><a href='directors.php'>Directors</a></li>
+							<li><a href='producer.php'>Producers</a></li>
+						</ul>
+					</li>
+					<li   class='current-menu-item'><a href='signuppage.php'>Sign Up</a></li>
+					<li><a href='signin.php'>Sign In</a></li>
+					<li><a href='indexx.html'>Search</a></li>
+					<li><a href='contactus.php'>Contact Us</a></li>
+				</ul>
+			</nav>
+			<div class='clear'></div>
+		
+	</header>	
+
+</div> ";
+?>

@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>File Production-Screenplay information</title>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../css/body.css">
+    <link rel="stylesheet" type="text/css" href="../css/../html/../htmlsignin/moviebox.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style1.css">
+    <link rel="stylesheet" type="text/css" href="../plugin/bootstrap.min.css">
+    <link href="css_pirobox/style_2/style.css" rel="stylesheet" type="text/css" />  
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../plugin/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="../js/plugin.js"></script>
+    <script type="text/javascript" src="../js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
+    <script type="text/javascript" src="js/pirobox_extended.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$().piroBox_ext({
+	piro_speed : 700,
+		bg_alpha : 0.5,
+		piro_scroll : true // pirobox always positioned at the center of the page
+	});
+});
+</script>
+<style type="text/css">
+	.imagelink {
+  color: #23dbdb;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+ 
+  cursor: pointer;
+  font-family:corbel;
+}
+.imagelink span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+   text-align: center;
+
+}
+
+.imagelink span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.imagelink:hover span {
+  padding-right: 25px;
+  color: #fff;
+}
+
+.imagelink:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.infoname{
+	line-height: 30px;font-size: 18px;
+}
+.screenplayinfo,.infoname{
+	color: #fff;padding: 20px;
+}
+</style>
+</head>
+<body>
+<!-- Preloader Start -->
+    <div id="preloader">
+	  <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+
+<div id="wrap">
+    <header>
+        <div class="inner relative">
+            <a class="logo" href="../indexsignin.html" style="text-decoration: none;color: #23dbdb;"><h1>Film Production</h1></a>
+            <a id="menu-toggle"  href="#"><i class="icon-reorder"></i></a>
+            <nav id="navigation">
+                <ul id="main-menu">
+                    <li><a href="../indexsignin.html">Home</a></li>
+                    <li class="parent">
+                        <a href="#">Movies</a>
+                        <ul class="sub-menu">
+                            <li><a href="../htmlsignin/movieTop100signin.html">Top 100</a></li>
+                            <li><a href="../htmlsignin/movieActionsignin.html"> Action</a></li>
+                            <li><a href="../htmlsignin/movieadventuresignin.html"> Adventure</a></li>
+                            <li><a href="../htmlsignin/moviecomedysignin.html"> Comedy</a></li>
+                            <li><a href="../htmlsignin/moviecrimesignin.html"> Crime</a></li>
+                            <li><a href="../htmlsignin/moviedramasignin.html"> Drama</a></li>
+                            <li><a href="../htmlsignin/moviefantasysignin.html"> Fantasy</a></li>
+                            <li><a href="../htmlsignin/moviehorrorsignin.html"> Horror</a></li>
+                            <li><a href="../htmlsignin/movieromancesignin.html"> Romance</a></li>
+                            <li><a href="../htmlsignin/moviesci_fisignin.html"> Sci-fi</a></li>
+                            <li><a href="../htmlsignin/moviekoreasignin.html"> Korea</a></li>
+                            <li><a href="../htmlsignin/moviemyanmarsignin.html"> Myanmar</a></li>
+                            <li><a href="../htmlsignin/moviethaisignin.html"> Thai</a></li>
+                            <li><a href="../htmlsignin/movieindiasignin.html"> India</a></li>
+                            <li><a href="../htmlsignin/moviechinasignin.html"> China</a></li>
+                            <li><a href="../htmlsignin/moviephilipinesignin.html"> Philipine</a></li>
+                        </ul>
+                    </li>
+                    <li class="parent">
+                        <a href="#">Crew</a>
+                        <ul class="sub-menu">
+                            <li><a href="../htmlsignin/actorssignin.html">Actors</a></li>
+                            <li><a href="../htmlsignin/actressessignin.html">Actresses</a></li>
+                            <li><a href="../htmlsignin/directorssignin.html">Directors</a></li>
+                            <li><a href="../htmlsignin/producersignin.html">Producer</a></li>
+                            <li><a href="../htmlsignin/screenwriterssignin.html">Screenwriters</a></li>
+                        </ul>
+                    </li>
+                    <li class="parent  current-menu-item">
+                        <a href="#">Screenplay</a>
+                        <ul class="sub-menu">
+                            <li><a href="../htmlsignin/screenplayTop100signin.html">Top 100</a></li>
+                            <li><a href="../htmlsignin/screenplayActionsignin.html"> Action</a></li>
+                            <li><a href="../htmlsignin/screenplayadventuresignin.html"> Adventure</a></li>
+                            <li><a href="../htmlsignin/screenplaycomedysignin.html"> Comedy</a></li>
+                            <li><a href="../htmlsignin/screenplaycrimesignin.html"> Crime</a></li>
+                            <li><a href="../htmlsignin/screenplaydramasignin.html"> Drama</a></li>
+                            <li><a href="../htmlsignin/screenplayfantasysignin.html"> Fantasy</a></li>
+                            <li><a href="../htmlsignin/screenplayhorrorsignin.html"> Horror</a></li>
+                            <li><a href="../htmlsignin/screenplayromancesignin.html"> Romance</a></li>
+                            <li><a href="../htmlsignin/screenplaysci_fisignin.html"> Sci-fi</a></li>
+                            <li><a href="../htmlsignin/screenplaymyanmarsignin.html"> Myanmar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../index.html">Log Out</a></li>
+                    <li><a href="../htmlsignin/searchsignin.html">Search</a></li>
+                    <li class="parent">
+                        <a href="#">Your Account</a>
+                        <ul class="sub-menu">
+                            <li><a href="../htmlsignin/upload.html">Upload Screenplay</a></li>
+                            <li><a href="../htmlsignin/yoursceenplay.html">Your Screenplay</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../htmlsignin/contactussignin.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        
+    </header>   
+
+</div> 
+
+<div class="bg">    
+	<div class="topdiv"></div>
+	<h2 class="headname">Sing</h2><br>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6" >
+			<p class="infoname">
+			Screenwriter : <a href="#" class="movieinfolink">Blur Blur..</a><br>
+			Released Date: 5 / 22 / 2016
+			</p>
+
+			<div style="width: 100%; display: inline-block;border-bottom: 2px solid #23dbdb;"></div>
+			
+			<p class="infoname">Screenplay</p><br>
+			<p class="screenplayinfo">
+			Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside..........</p><a href="#inline" rel="inline-800-500"  class="pirobox_gall1" title="Inline content"><p class="imagelink"><span>Read More</span></a>
+<div id="inline" style="display:none; background:white;">
+<h2 class="h2">Beauty and The Beast</h2>
+<p style="padding:20px;">Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.Belle ( Emma Watson ), a bright, beautiful and indenpendent young woman, is taken prisoner by a beast( Dan Stevens ) in its castle. Despite her fears, she befriends the castle's enchantedt staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.</p>
+</div>
+<p class="infoheadtext"> Give Rating : </p>
+			<div class="stars">
+  									<form action="">
+									    <input class="star star-5" id="star-5" type="radio" name="star"/>
+									    <label class="star star-5" for="star-5"></label>
+									    <input class="star star-4" id="star-4" type="radio" name="star"/>
+									    <label class="star star-4" for="star-4"></label>
+ 									   <input class="star star-3" id="star-3" type="radio" name="star"/>
+ 									   <label class="star star-3" for="star-3"></label>
+									    <input class="star star-2" id="star-2" type="radio" name="star"/>
+ 									   <label class="star star-2" for="star-2"></label>
+									    <input class="star star-1" id="star-1" type="radio" name="star"/>
+ 									   <label class="star star-1" for="star-1"></label>
+						 			 </form>
+
+									</div>
+</div>
+		<div class="col-sm-4">
+			<img src="../images/bg.jpg" style="height: 450px;box-shadow: 0px 10px 8px rgba(0,0,0,0.3);">
+
+		</div>
+		
+		
+		<div style="width: 100%; display: inline-block;border-bottom: 2px solid #23dbdb;"></div>
+		 <h3 class="infoheadtext" style="text-align: center;">Write Comment</h3>
+
+
+<table style="margin-left:30%;padding: 20px;">
+<tr>
+<td>
+<input type="text" id="myText" size="55" placeholder="*Enter your name here*" required>
+</td>
+</tr>
+<tr align="center">
+<td>
+<textarea id = "myTextArea" cols="75" rows="5" placeholder="*Enter your comment here*" required>
+</textarea>
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" id="myBtn" value="Submit" class="searchbtn"><br>
+</td>
+</tr>
+</table>
+<h3 style="text-align: center;color: #fff;padding: 20px;margin-top: 8%;">Comments</h3>
+<dl id="tbody" >
+	<dt ></dt>
+		
+		<dd><br/></dd>
+
+</dl>
+<script type = "text/javascript">
+
+	var div = document.getElementById("myDiv");
+
+	var btn = document.getElementById("myBtn");
+	var tbody = document.getElementById("tbody");
+	var b = document.createElement("b");
+	
+
+	btn.onclick = function(){
+		
+			var textn = document.getElementById("myText");
+			var textarea = document.getElementById("myTextArea");
+			var name = textn.value;
+			
+			var txt = textarea.value;	
+			
+			var col1 = document.createElement("dt");
+			col1.style.backgroundColor="#333";
+			col1.style.color="white";
+			col1.style.marginLeft="20%";
+			col1.style.width="50%";
+			col1.style.padding="10px";
+			col1.appendChild(b);
+			col1.appendChild(document.createTextNode(name));
+			
+			tbody.appendChild(col1);
+			
+			
+			var col2 = document.createElement("dd");
+			col2.style.backgroundColor="#333";
+			col2.style.color="white";
+			col2.style.marginLeft="20%";
+			col2.style.width="50%";
+			col2.style.padding="10px";
+			col2.style.borderBottom="2px solid #23dbdb";
+			col2.appendChild(document.createTextNode(txt));
+			tbody.appendChild(col2);
+		};
+
+</script>
+
+
+
+</div>
+</div>
+ <!-- Back to Top Start -->
+    <a href="#" class="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- Back to Top End -->    
+</body></html>
